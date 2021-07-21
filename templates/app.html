@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Flower Guru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="classifies your uploaded picture of a flower">
+<style>
+body {background-color:#ffffff;background-image:url(https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?cs=srgb&dl=pexels-pixabay-60597.jpg&fm=jpg);background-repeat:no-repeat;background-position:top left;background-attachment:fixed;}
+h1{text-align:center;font-family:Georgia, serif;color:#ffffff;background-color:#193328;}
+p {text-align:center;font-family:Georgia, serif;font-size:30px;font-style:normal;font-weight:normal;color:#ffffff;background-color:#193328;}
+</style>
+</head>
+<body>
+<h1>Flower Guru</h1>
+<p></p>
+<div id="content">
+  <article>
+    <div class><h1 class>Your Flower Is A... {{variable}}</h1></div>
+    <form method="post" action="/" enctype="multipart/form-data" class="text-center">
+      <dl>
+          <p>
+            <input type="file" name="file" class="form-control col-md-6 cold-offset-3 text-center" autocomplete="off" id="file">
+          </p>
+      </dl>
+        <p>
+          <input type="submit" value="Submit" class="btn btn-info text-center">
+        </p>
+    </form>
+    
+  </article>
+</div>
+</body>
+</html>
+
+<!--<!DOCTYPE html>
+<html>
+  <head>
+    <META charset="UTF-8" />
+    <title>
+        Flower Classifier
+    </title>
+    <link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  </head>
+<body>
+<div id="content">
+  <article>
+    <header><h2 class="text-center">Flower Classifier</h2></header>
+    <div class="text-center"><h2>{{variable}}</h2></div>
+    <form method="post" action="/" enctype="multipart/form-data" class="text-center">
+      <dl>
+          <p>
+            <input type="file" name="file" class="form-control col-md-6 cold-offset-3 text-center" autocomplete="off" id="file">
+          </p>
+      </dl>
+        <p>
+          <input type="submit" value="Submit" class="btn btn-info text-center">
+        </p>
+    </form>
+    
+  </article>
+</div>
+  </body>
+</html>-->
